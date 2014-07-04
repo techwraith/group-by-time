@@ -1,0 +1,33 @@
+{
+  "name": "group-by-time",
+  "version": "1.0.0",
+  "description": "Given an array of objects, where the objects each have some key with a unix timestamp value, break the array into multiple arrays and return them on an object, keyed by the group label.",
+  "main": "index.js",
+  "dependencies": {
+    "lodash.groupby": "^2.4.1"
+  },
+  "devDependencies": {
+    "prova": "^1.13.2"
+  , "lodash": "^2.4.1"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Techwraith/group-by-time.git"
+  },
+  "keywords": [
+    "timestamp",
+    "group",
+    "day",
+    "week",
+    "month"
+  ],
+  "author": "techwraith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Techwraith/group-by-time/issues"
+  },
+  "homepage": "https://github.com/Techwraith/group-by-time"
+}
