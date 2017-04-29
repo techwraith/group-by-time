@@ -33,8 +33,8 @@ function groupByTime (arr, key, group) {
 
 }
 
-groupByTime.byDay = function (arr, key) { groupByTime(arr, key, 'day') }
-groupByTime.byWeek = function (arr, key) { groupByTime(arr, key, 'week') }
-groupByTime.byMonth = function (arr, key) { groupByTime(arr, key, 'month') }
+groupByTime.byDay = function (arr, key) { return groupByTime(arr, key, 'day') }
+groupByTime.byWeek = function (arr, key) { return groupByTime(arr, key, 'week') }
+groupByTime.byMonth = function (arr, key) { return groupByTime(arr, key, 'month') }
 
 module.exports = groupByTime
